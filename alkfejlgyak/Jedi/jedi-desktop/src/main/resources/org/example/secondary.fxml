@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SecondaryController">
+    <children>
+        <Button fx:id="secondaryButton" layoutX="253.0" layoutY="197.0" onAction="#onClose" text="Close" />
+        <Button layoutX="168.0" layoutY="197.0" mnemonicParsing="false" onAction="#onSave" text="Save" />
+        <Label layoutX="28.0" layoutY="43.0" text="Name" />
+        <Label layoutX="28.0" layoutY="77.0" text="Rank" />
+        <Label layoutX="30.0" layoutY="117.0" text="Gender" />
+        <TextField fx:id="nameTextField" layoutX="130.0" layoutY="39.0" />
+        <ComboBox fx:id="RankCombo" accessibleText="Sonkás" layoutX="130.0" layoutY="73.0" prefWidth="150.0" />
+      <RadioButton fx:id="Male_Radio" layoutX="138.0" layoutY="124.0" mnemonicParsing="false" text="Male" />
+      <RadioButton fx:id="Female_Radio" layoutX="217.0" layoutY="124.0" mnemonicParsing="false" text="Female" />
+      <Label  layoutX="28.0" layoutY="154.0" text="Member of the countil?" />
+      <CheckBox fx:id="councilmember_Check" layoutX="209.0" layoutY="153.0" mnemonicParsing="false" />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</AnchorPane>
